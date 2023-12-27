@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfolio</title>
+    <link rel="stylesheet" href="css.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="" class="logo">Portfolio</a>
+        <div class="navbar" id="sidemenu">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Skills</a>
+            <a href="#skills" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
+            <i class='bx bxs-x-circle' style='color:#e6e6e6' onclick="closemenu()"></i>
+        </div>
+        <i class='bx bx-menu' style='color:#e61111' onclick="openmenu()"></i>
+    </header>
+    <section class="home">
+        <img src="6.jpg" alt="">
+        <div class="home-content">
+
+            <h3>Hello, It's Me</h3>
+            <h1>Preeti Raj</h1>
+            <h3> And I'm a <span class="text"></span> </h3>
+            <p>Web Designer with extensive <br> Expertise is to create and website design, Frant-end Design, and more...
+            </p>
+            <div class="home-sci">
+                <a href="https://github.com/" style="--i:7"><i class='bx bxl-github'></i></a>
+                <a href="" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/" style="--i:10"><i class='bx bxl-linkedin'></i></a>
+
+
+            </div>
+            <a href="" class="btn-box">More About Me</a>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <br><br>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="6.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p> I am a full-stack developer or engineer <br>
+                I can build both the front end and the back end of a website. <br>
+                The front end (the parts of a website a user sees and interacts with) and <br>
+                the back end (the behind-the-scenes data storageb <br> and processing) require different skill sets
+                I am a full-stack developer or engineer <br>
+                I can build both the front end and the back end of a website. <br>
+                The front end (the parts of a website a user sees and interacts with) and <br>
+                the back end (the behind-the-scenes data storage <br> and processing) require different skill sets</p>
+            <a href="" class="btn1-box">More About Me</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title"> My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code' style='color:#4ef1e9'></i>
+                        <h2>Developer</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+                            distinctio tempore quidem velit alias explicabo
+                            eveniet suscipit possimus maxime adipisci quaerat corrupti modi
+                            in necessitatibus dolorum, fuga praesentium dolor saepe. </p>
+                        <a href="" class="read"> learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-crop' style='color:#4ef1e9'></i>
+                        <h2>Developer</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+                            distinctio tempore quidem velit alias explicabo
+                            eveniet suscipit possimus maxime adipisci quaerat corrupti modi
+                            in necessitatibus dolorum, fuga praesentium dolor saepe. </p>
+                        <a href="" class="read"> learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-apple' style='color:#4ef1e9'></i>
+                        <h2>Developer</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+                            distinctio tempore quidem velit alias explicabo
+                            eveniet suscipit possimus maxime adipisci quaerat corrupti modi
+                            in necessitatibus dolorum, fuga praesentium dolor saepe. </p>
+                        <a href="" class="read"> learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+
+    <h1 class="sub-title"> My <span>Skills</span></h1>
+    <section class="section">
+        <div class="container1" id="skills">
+            <h1 class="heading1"> Technical Skills </h1>
+            <canvas id="myChart"  ></canvas>
+            <!-- <div class="Technical-bars">
+
+                <div class="bar"><i class='bx bxl-html5' style='color:#f1b819'></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span> </span>
+                    </div>
+                </div>
+                <div class="bar"><i class='bx bxl-css3' style='color:#2a6f74'></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span> </span>
+                    </div>
+
+                </div>
+                <div class="bar"><i class='bx bxl-java' style='color:#0e51a8'></i>
+                    <div class="info">
+                        <span>JAVA</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span> </span>
+                    </div>
+
+                </div>
+                <div class="bar"><i class='bx bxl-javascript' style='color:#c40f18'></i>
+                    <div class="info">
+                        <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span> </span>
+                    </div>
+
+                </div>
+                <div class="bar"><i class='bx bxl-nodejs' style='color:#044b50'></i>
+                    <div class="info">
+                        <span>NODEJS</span>
+                    </div>
+                    <div class="progress-line nodejs">
+                        <span> </span>
+                    </div>
+
+                </div> -->
+
+
+            </div>
+        </div>
+        <!-- professional skilla -->
+        <div class="container1">
+            <h1 class="heading1"> Professional Skills</h1>
+            <div class="radial-bar">
+                <div class="radial-bars">
+
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">creativity</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                    <div class="text">communication</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">60%</div>
+                    <div class="text">Problem-Solving</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">10%</div>
+                    <div class="text">Team-Work</div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- project -->
+
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2> Latest <span>Project</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="i3.jfif" alt="">
+                        <div class="layer">
+                            <h5>Wanderlust website</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Molestias laudantium
+                                distinctio, perspiciatis inventore a,<br>
+                                accusantium praesentium corporis fugiat tempore, quis debitis <br>
+                            </p>
+                            <a href=""><i class='bx bx-link-external' style='color:#ef3f27'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="i1.jfif" alt="">
+                        <div class="layer">
+                            <h5>portfolio</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Molestias laudantium
+                                distinctio, perspiciatis inventore a,<br>
+                                accusantium praesentium corporis fugiat tempore, quis debitis
+                            </p>
+                            <a href=""><i class='bx bx-link-external' style='color:#ef3f27'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="i1.jfif" alt="">
+                        <div class="layer">
+                            <h5> Netflix-clone</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Molestias laudantium
+                                distinctio, perspiciatis inventore a,<br>
+                                accusantium praesentium corporis fugiat tempore, quis debitis
+                            </p>
+                            <a href=""><i class='bx bx-link-external' style='color:#ef3f27'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+                Fugiat natus, cum tempora error quisquam
+                culpa quidem provident pariatur laudantium at eaque <br>similique minima, sequi mollitia nesciunt
+                expedita facilis sapiente eius.
+            </p>
+            <div class="contact-list">
+                <li><i class='bx bx-send'></i>preetirajmca@gmail.com</li>
+                <li><i class='bx bx-phone'></i>9719652797</li>
+            </div>
+            <div class="contact-icon">
+                <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+                <a href=""> <i class='bx bxl-twitter'></i></a>
+                <a href=""> <i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class='bx bxl-linkedin'></i></a>
+
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email" required>
+
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <input type="submit" value="submit" class="send">
+
+
+            </form>
+        </div>
+    </section>
+
+
+    <div class="last-list">
+        <p>Developer with love by preeti raj @ 2024</p>
+    </div>
+    <a href="" class="top"> <i class='bx bx-up-arrow-alt'></i></a>
+
+
+
+
+
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
