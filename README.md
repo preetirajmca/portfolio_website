@@ -1,17 +1,17 @@
- Portfolio Website
+#Portfolio Website
 Welcome to my personal portfolio website repository! This website serves as a showcase of my skills, projects, and professional background.
-Features:
+#Features:
 Social Icons:
 Easily connect with me on various social media platforms.
-About Me:
+#About Me:
 Learn more about my background, skills, and professional journey.
-Skills:
+#Skills:
 Explore the range of skills I possess, including programming languages, technologies, and tools.
-Projects:
+#Projects:
 Check out my latest projects, including detailed information, code repositories, and live demos where applicable.
-Contact:
+#Contact:
 Reach out to me easily using the provided contact form or through alternative contact methods.
-Technologies Used:
+#Technologies Used:
 HTML5
 CSS3
 JavaScript
